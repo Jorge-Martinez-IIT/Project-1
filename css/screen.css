@@ -1,26 +1,29 @@
-label {
-  display: block;
-}
-
 body{
-	background: gray;
-	font-family: 'Montserrat', 'Poppins', sans-serif;
+	display:flex;
+	background-image: url('web.gif');
+	justify-content: center;
+	padding-top: 4em;
 }
 h1{
 	justify-content: center;
 	text-align: center;
 	font-size: 1.7em;
 	padding: 1em;
+	border-bottom: solid;
 }
 form{
 	background: white;
 	border-radius: 25px;
+	font-family: "consolas";
+	background-color: black;
+	color:#39ff14
 }
 p{
 	justify-content: center;
 	text-align: center;
 	font-size: 1.4em;
 	padding: 1em;
+	display:flex;
 }
 input {
   border-radius: 25px;
@@ -35,34 +38,15 @@ input {
 #input-email{
 	justify-content: center;
 	text-align: center;
-	font-family: 'AR One Sans', 'Gabarito', Onest;
 	font-size: 1.3em;
 	padding: 1em;
 	display: flex;
 }
-#userphone{
+#userphone,#input-name,#input-submit{
 	justify-content: center;
 	text-align: center;
-	font-family: 'AR One Sans', 'Gabarito', Onest;
 	font-size: 1.3em;
 	padding: 1em;
-	display: flex;
-}
-
-#input-name{
-	justify-content: center;
-	text-align: center;
-	font-family: 'AR One Sans', 'Gabarito', Onest;
-	font-size: 1.3em;
-	padding: 1em;
-	display: flex;
-}
-#input-submit{
-	font-size: 1.3em;
-	justify-content: center;
-	display: flex;
-	padding: 1em;
-	font-family: 'AR One Sans', 'Gabarito', Onest;
 }
 @media(max-width: 1em){
 html{
