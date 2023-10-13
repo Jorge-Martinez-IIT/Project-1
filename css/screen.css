@@ -1,7 +1,8 @@
 /*Body/html Styling*/
+/*Gif may be slower depeding on screen*/
 body{
 	display:flex;
-	background-image: url('web.gif'); /*Gif. runuing in the backround*/
+	background-image: url('web.gif'); /*Gif. runuing in the backround*/ 
 	justify-content: center;
 	padding-top: 4em;
 }
