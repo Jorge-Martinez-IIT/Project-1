@@ -6,6 +6,7 @@ body{
 	justify-content: center;
 	padding-top: 4em;
 }
+/*h1 Styling*/
 h1{
 	justify-content: center;
 	text-align: center;
@@ -22,6 +23,7 @@ form{
 	background-color: black;
 	color:#39ff14
 }
+/* p Styling*/
 p{
 	justify-content: center;
 	text-align: center;
@@ -68,6 +70,7 @@ html{
 	margin: 0;
 	position: absolute;
 }
+/* p Styling*/
 p{
 	justify-content: center;
 	text-align: center;
