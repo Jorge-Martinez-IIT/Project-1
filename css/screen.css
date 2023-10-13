@@ -83,6 +83,7 @@ form{
 	color:black;
 }
 }
+/* End of media: Mobile */
 /* beginning of media: Tablet */
 @media(max-width: 900px){
 /*html Styling*/
@@ -94,3 +95,4 @@ html{
 	text-align: center;
 }
 }
+/* End of media: Tablet */
