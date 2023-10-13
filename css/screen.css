@@ -13,6 +13,7 @@ h1{
 	border-bottom: solid;
 }
 /* The beginng of the form: color and font family */
+/*Creating the space that contains user infomation*/
 form{
 	background: white;
 	border-radius: 25px;
@@ -78,6 +79,7 @@ form{
 }
 /* beginning of media: Tablet */
 @media(max-width: 900px){
+/*html Styling*/
 html{
 	display: flex;
 	margin: 0;
