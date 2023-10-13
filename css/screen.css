@@ -69,6 +69,7 @@ html{
 	display: flex;
 	margin: 0;
 	position: absolute;
+	background-color: black;
 }
 /* p Styling*/
 p{
