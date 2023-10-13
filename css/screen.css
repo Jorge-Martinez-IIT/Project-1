@@ -1,6 +1,6 @@
 body{
 	display:flex;
-	background-image: url('web.gif');
+	background-image: url('web.gif'); /*Gif. runuing in the backround*/
 	justify-content: center;
 	padding-top: 4em;
 }
@@ -11,6 +11,7 @@ h1{
 	padding: 1em;
 	border-bottom: solid;
 }
+/* The beginng of the form: color and font family */
 form{
 	background: white;
 	border-radius: 25px;
@@ -25,6 +26,7 @@ p{
 	padding: 1em;
 	display:flex;
 }
+/* input aligntment */
 input {
   border-radius: 25px;
   text-align: center;
@@ -34,6 +36,8 @@ input {
 	justify-content: center;
 	border-radius: 1em;
 }
+/* email input and styling */
+/*Note email was seprated due to display purpose*/
 #input-email{
 	justify-content: center;
 	text-align: center;
@@ -41,20 +45,23 @@ input {
 	padding: 1em;
 	display: flex;
 }
+/* phone,name,submit input and styling and style */
 #userphone,#input-name,#input-submit{
 	justify-content: center;
 	text-align: center;
 	font-size: 1.3em;
 	padding: 1em;
 }
+/* sepration due to error occuring when combiend */
 #userphone,#input-name,#input-submit{
 	padding: 1em;
 }
+/* beginning of media: Mobile */
 @media(max-width: 400px){
 html{
 	display: flex;
 	margin: 0;
-    position: absolute;
+	position: absolute;
 }
 p{
 	justify-content: center;
@@ -66,11 +73,12 @@ form{
 	color:black;
 }
 }
+/* beginning of media: Tablet */
 @media(max-width: 900px){
 html{
 	display: flex;
 	margin: 0;
-    position: absolute;
+	position: absolute;
 	justify-content: center;
 	text-align: center;
 }
