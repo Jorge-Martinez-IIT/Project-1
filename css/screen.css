@@ -60,13 +60,11 @@ p{
 	justify-content: center;
 	text-align: center;
 }
-p{
-	font-size: 1 em;
-}
 form{
 	background: white;
 	font-family: "consolas";
 	color:black;
+	font-size: 1 em;
 }
 }
 @media(max-width: 900px){
