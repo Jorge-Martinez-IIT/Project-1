@@ -71,6 +71,7 @@ p{
 	justify-content: center;
 	text-align: center;
 }
+/* The beginng of the form: color and font family */
 form{
 	background: white;
 	font-family: "consolas";
