@@ -111,10 +111,15 @@ html{
 	justify-content: center;
 	text-align: center;
 }
+label{
+	margin: center; 
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+}
 form{
 	max-width: 100%;
 	overflow: scroll;
-	max-hight: 100%;
 }
 }
 /* End of media: Tablet */
