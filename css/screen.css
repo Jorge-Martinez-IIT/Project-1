@@ -36,7 +36,12 @@ input {
 	border-radius: 25px;
 	text-align: center;
 }
-
+label{
+	margin: center; 
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+}
 /* content aligntment */
 #content{
 	align-items: center;
@@ -105,6 +110,11 @@ html{
 	position: absolute;
 	justify-content: center;
 	text-align: center;
+}
+form{
+	max-width: 100%;
+	overflow: scroll;
+	max-hight: 100%;
 }
 }
 /* End of media: Tablet */
