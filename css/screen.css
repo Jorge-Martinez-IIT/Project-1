@@ -74,7 +74,7 @@ input {
   	background-color: #39ff14
 }
 /* beginning of media: Mobile */
-@media(min-width: 400px){
+@media(min-hight: 1020px){
 /*html Styling*/
 html{
 	display: flex;
@@ -92,14 +92,15 @@ form{
 	background: white;
 	font-family: "consolas",'Montserrat', 'Poppins', Open Sans;
 	color:black;
+	background-color: black;
+	color:#39ff14
 }
 }
 /* End of media: Mobile */
 /* beginning of media: Tablet */
-@media(min-width: 900px){
+@media(min-wight: 500px){
 /*html Styling*/
 html{
-	display: flex;
 	margin: 0;
 	position: absolute;
 	justify-content: center;
