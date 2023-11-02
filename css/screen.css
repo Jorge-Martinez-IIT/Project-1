@@ -74,7 +74,7 @@ input {
   	background-color: #39ff14
 }
 /* beginning of media: Mobile */
-@media(min-hight: 1020px){
+@media(min-hight: 500px){
 /*html Styling*/
 html{
 	display: flex;
@@ -98,7 +98,7 @@ form{
 }
 /* End of media: Mobile */
 /* beginning of media: Tablet */
-@media(min-wight: 500px){
+@media(min-wight: 1020px){
 /*html Styling*/
 html{
 	margin: 0;
