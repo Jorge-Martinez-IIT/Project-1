@@ -19,7 +19,7 @@ h1{
 form{
 	background: white;
 	border-radius: 25px;
-	font-family: "consolas";
+	font-family: "consolas",'sans-serif', 'Poppins', Open Sans;
 	background-color: black;
 	color:#39ff14
 }
@@ -33,9 +33,10 @@ p{
 }
 /* input aligntment */
 input {
-  border-radius: 25px;
-  text-align: center;
+	border-radius: 25px;
+	text-align: center;
 }
+
 /* content aligntment */
 #content{
 	align-items: center;
@@ -62,8 +63,18 @@ input {
 #userphone,#input-name,#input-submit{
 	padding: 1em;
 }
+/* Putting transiton of color for button color */
+.button {
+	background-color: red
+}
+.button {
+  transition-duration: 0.7s;
+}
+.button:hover {
+  	background-color: #39ff14
+}
 /* beginning of media: Mobile */
-@media(max-width: 400px){
+@media(min-width: 400px){
 /*html Styling*/
 html{
 	display: flex;
@@ -79,13 +90,13 @@ p{
 /* The beginng of the form: color and font family */
 form{
 	background: white;
-	font-family: "consolas";
+	font-family: "consolas",'Montserrat', 'Poppins', Open Sans;
 	color:black;
 }
 }
 /* End of media: Mobile */
 /* beginning of media: Tablet */
-@media(max-width: 900px){
+@media(min-width: 900px){
 /*html Styling*/
 html{
 	display: flex;
