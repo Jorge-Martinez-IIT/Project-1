@@ -95,16 +95,6 @@ form{
 	background-color: black;
 	color:#39ff14
 }
-/* Putting transiton of color for button color */
-.button {
-	background-color: red
-}
-.button {
-  transition-duration: 0.7s;
-}
-.button:hover {
-  	background-color: #39ff14
-}
 }
 /* End of media: Mobile */
 /* beginning of media: Tablet */
