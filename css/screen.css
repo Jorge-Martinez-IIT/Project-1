@@ -35,11 +35,11 @@ p{
 input {
 	border-radius: 25px;
 	text-align: center;
-}
-label{
-	justify-content: center;
 	align-items: center;
 	vertical-align: middle;
+}
+label{
+	position: relative
 }
 /* content aligntment */
 #content{
